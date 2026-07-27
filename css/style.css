@@ -71,3 +71,6 @@ article{
     border: 1px solid #ccc;
     padding: 15px;
 }
+article:hover{
+    background-color: aliceblue;
+}
