@@ -16,3 +16,6 @@ if(age>=18){
 else{
     console.log("not eligible for admission")
 }
+for(let i=1; i<=5; i++){
+    console.log("iteration number:"+i)
+}
