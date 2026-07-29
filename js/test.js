@@ -1,21 +1,36 @@
-console.log("Hello World")
-let student_name = "srinu"
-console.log("student name is:"+student_name)
+console.log("Hello world")
+let student_name = "Srinu"
+console.log("Student name is: " + student_name)
 let student_age = 21
-let course_name = "python full stack"
-console.log("student age is:"+student_age,"course name is: "+ course_name)
+let course_name = "Python Full Stack"
+console.log("Student age is: " + student_age, "Course name is: " + course_name)
 let fee = 10000
 let discount = 10
 let discounted_fee = fee - (fee * discount / 100)
-console.log("discounted fee is: "+discounted_fee)
+console.log("Discounted fee is: " + discounted_fee)
 
 let age=18
+age=20
 if(age>=18){
-    console.log("eligible for admisson")
+    console.log("Eligible for admission")
 }
 else{
-    console.log("not eligible for admission")
+    console.log("Not eligible for admission")
 }
 for(let i=1; i<=5; i++){
-    console.log("iteration number:"+i)
+    console.log("Iteration number: " + i)
 }
+const pi = 3.14
+console.log("Value of pi is: " + pi)
+let student = {
+    name: "Srinu",
+    age: 21,
+    course: "Python Full Stack",
+    fee: 10000
+}
+console.log("Student details: ", student)
+
+function greetStudent(name){
+    console.log("Hello " + name + ", welcome to NRIIT Learning Management System")
+}
+greetStudent(student_name)
